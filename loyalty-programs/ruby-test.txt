@@ -1,0 +1,13 @@
+How to test ruby functions in a class:
+
+
+$ ruby -I . -r "index" -e "Loyalty.welcome"
+
+def self.welcome
+    puts "Welcome! Please choose your loyalty program:"
+    puts "Amex"
+    puts "Chase"
+    puts "Citi"
+    #input = gets.strip.downcase
+
+end
